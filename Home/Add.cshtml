@@ -1,0 +1,38 @@
+﻿@using Microsoft.AspNetCore.Mvc.RazorPages;
+
+@{
+    ViewData["Title"] = "Adding two number";
+  
+}
+<h1>@ViewData["Title"]</h1>
+
+<p>Use this page to detail your site's Two adding two number.</p>
+
+
+
+
+
+
+<form action="" method="post">
+    <label for="num1">Number 1 </label>
+    <input type="number" name="number1">
+<br>
+<br />
+    <label for="num1">Number 2 </label>
+    <input type="number" name="number2">
+
+    <br>
+    <br />
+
+    <input type="submit" value="Add" />
+</form>
+
+@{
+
+
+
+    <p> @ViewBag.Result</p>
+    
+
+}
+        
